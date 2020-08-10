@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('/fonts/montserrat/Montserrat-Black.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('/fonts/montserrat/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/fonts/roboto/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/fonts/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('/fonts/roboto/Roboto-Light.ttf');
+}
+
+$blue: #008FEE;
+$lightBlue: #00A2F3;
+$green: #00B359;
+$grey: #F7F7F7;
+$white: #FFF;
+$black: #4C4C4C;
+$textBlack: #8E8E8E;
+
+$FontMont: 'Montserrat', sans-serif;
+$FontRobo: 'Roboto', sans-serif;
+
+* {
+	// font-family: $FontMont;
+  font-weight: 300;
+  font-display: swap;
+}
+
+body {
+  color: $black;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $FontMont;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 31px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.active {
+	color: $white;
+	background: $blue;
+	border-bottom: .5px solid $blue !important;
+}
+.active2 {
+	color: $white;
+	background: $lightBlue;
+	border-bottom: .5px solid $lightBlue !important;
+}
+.border--active {
+	border: 1px solid $lightBlue !important;
+}
+
+.btn {
+  font-family: $FontRobo;
+  font-weight: bold;
+  font-display: swap;
+  border: none;
+	border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  // box-shadow: 0px 3px 10px rgba(104, 104, 104, 0.5);
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+	transition: .3s;
+
+  & a {
+    color: $white;
+    text-decoration: none;
+  }
+
+	&.sm {
+		padding: 10px;
+		font-size: .8em;
+	}
+
+  &.md {
+    width: max-content;
+    padding: 10px 38px;
+		font-size: .8em;
+  }
+
+  &.lg {
+    width: 100%;
+  }
+
+	&.blue {
+		color: $white;
+		background: $blue;
+
+
+		&:hover {
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	&.transblue {
+		color: $black;
+		background: transparent;
+		border: 2px solid $black;
+
+		&:hover {
+			color: $white;
+			background: $blue;
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+			border: 2px solid $blue;
+		}
+	}
+	&.transwhite {
+		color: $black;
+		background: transparent;
+		border: 2px solid $white;
+
+		&:hover {
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		}
+	}
+}
+
+.input {
+
+	&--newsletter {
+		width: 90%;
+		padding: 5px 5px 5px 10px;
+		background: $white;
+		border-radius: 30px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+		input {
+			width: 50%;
+			border: none;
+			outline: none;
+			color: $textBlack;
+			font-size: .8em;
+		}
+	}
+}
+
+.text {
+
+  &--warning {
+    color: red !important;
+  }
+}
+
+.border {
+
+  &--warning {
+    border: 1px solid red !important;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+	width: 10%;
+	height: 5px;
+  margin: 16px auto 28px;
+  border: 0;
+	border-radius: 10px;
+  display: block;
+  background: #F1F1F1;
+
+  @media screen and (max-device-width : 500px) {
+    width: 30%;
+  }
+	&--vertical {
+		width: .5px;
+		height: 50px;
+	  border: 0;
+		border-radius: 10px;
+	  display: block;
+	  background: rgba(#F1F1F1, .5);
+	}
+}
+
+@import './_Nav.scss';
+@import './_Hero.scss';
+@import './_Package.scss';
+@import './_Module.scss';
+@import './_Footer.scss';

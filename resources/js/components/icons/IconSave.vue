@@ -1,0 +1,24 @@
+<template>
+  <svg
+    :width="width"
+    :height="height"
+    viewBox="0 0 29 35"
+  >
+    <path d="M29 35L14.5 26.25L0 35V0H29V35Z" fill="#0090EF"/>
+    <path d="M14.07 6H7V13.0727L15.9273 22L23 14.9307L14.07 6ZM11.276 10.276C10.7553 10.7967 9.912 10.7967 9.39 10.2767C8.86933 9.75467 8.86933 8.91133 9.39 8.39067C9.91133 7.86933 10.7553 7.87 11.276 8.39C11.7973 8.91133 11.7967 9.75467 11.276 10.276Z" fill="white"/>
+  </svg>
+</template>
+
+<script>
+  import MixinIcon from '../mixins/MixinIcon.js'
+
+  export default {
+    mixins: [
+      MixinIcon
+    ]
+  };
+</script>
+
+<style lang="css" scoped>
+
+</style>

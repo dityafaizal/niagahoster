@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Hubungi Kami",
+    "lists": [
+      {"list": "0274-5305505"},
+      {"list": "Senin - Minggu"},
+      {"list": "24 Jam Nonstop"},
+      {"list": " "},
+      {"list": "Jl. Selokan Matarm Monjali Karangjati MT I/304 Sinduadi, Mlati, Sleman, Yogyakarta 55284"}
+    ]
+  },
+  {
+    "title": "Layanan",
+    "lists": [
+      {"list": "Domain"},
+      {"list": "Shared Hosting"},
+      {"list": "Cloud VPS Hosting"},
+      {"list": "Managed VPS Hosting"},
+      {"list": "Web Builder"},
+      {"list": "Keamanan SSL / HTTP"},
+      {"list": "Jasa Pembuatan Website"},
+      {"list": "Program Affiliasi"}
+    ]
+  },
+  {
+    "title": "Service Hosting",
+    "lists": [
+      {"list": "Hosting Murah"},
+      {"list": "Hosting Indonesia"},
+      {"list": "Hosting Singapura SG"},
+      {"list": "Hosting Wordpress"},
+      {"list": "Hosting PHP"},
+      {"list": "Hosting Laravel"}
+    ]
+  },
+  {
+    "title": "Tutorial",
+    "lists": [
+      {"list": "Knowledge"},
+      {"list": "Blog"},
+      {"list": "Cara Pembayaran"}
+    ]
+  },
+  {
+    "title": "Tentang Kami",
+    "lists": [
+      {"list": "Tim Niagahoster"},
+      {"list": "Karir"},
+      {"list": "Events"},
+      {"list": "Penawaran & Promo Spesial"},
+      {"list": "Kontak Kami"}
+    ]
+  },
+  {
+    "title": "Kenapa Pilih Niagahoster?",
+    "lists": [
+      {"list": "Support Terbaik"},
+      {"list": "Garansi Harga Termurah"},
+      {"list": "Domain Gratis Selamanya"},
+      {"list": "Datacenter Hosting Terbaik"},
+      {"list": "Review Pelanggan"}
+    ]
+  }
+]

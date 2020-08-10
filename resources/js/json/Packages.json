@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Bayi",
+    "priceBefore": "19.900",
+    "priceAfter": "<span style=\"font-size:3em;font-weight:900;\">14</span><span style=\"font-weight:bold;\">.900</b>",
+    "regUser": "<span style=\"font-weight:bold;\">938</span>",
+    "includes": [
+      {"include": "<span style=\"font-weight:bold;\">0.5X RESOURCE POWER</span>"},
+      {"include": "<span style=\"font-weight:bold;\">500</span> MB Disk Space"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Bandwidth"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Database"},
+      {"include": "<span style=\"font-weight:bold;\">1</span> Domain"},
+      {"include": "<span style=\"font-weight:bold;\">Instant</span> Backup"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> SSL Gratis Selamanya"}
+    ],
+    "button": "Pilih Sekarang",
+    "active": "",
+    "active2": "",
+    "borderActive": "",
+    "showImage": false
+  },
+  {
+    "title": "Pelajar",
+    "priceBefore": "46.900",
+    "priceAfter": "<span style=\"font-size:3em;font-weight:900;\">23</span><span style=\"font-weight:bold;\">.450</b>",
+    "regUser": "<span style=\"font-weight:bold;\">4.168</span>",
+    "includes": [
+      {"include": "<span style=\"font-weight:bold;\">1X RESOURCE POWER</span>"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Disk Space"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Bandwidth"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> POP3 Email"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Database"},
+      {"include": "<span style=\"font-weight:bold;\">10</span> Addon Domains"},
+      {"include": "<span style=\"font-weight:bold;\">Instant</span> Backup"},
+      {"include": "<span style=\"font-weight:bold;\">Domain</span> Gratis Selamanya"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> SSL Gratis Selamanya"}
+    ],
+    "button": "Pilih Sekarang",
+    "active": "",
+    "active2": "",
+    "borderActive": "",
+    "showImage": false
+  },
+  {
+    "title": "Personal",
+    "priceBefore": "58.900",
+    "priceAfter": "<span style=\"font-size:3em;font-weight:900;\">38</span>.<span style=\"font-weight:bold;\">900</b>",
+    "regUser": "<span style=\"font-weight:bold;\">10.017</span>",
+    "includes": [
+      {"include": "<span style=\"font-weight:bold;\">2X RESOURCE POWER</span>"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Disk Space"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Bandwidth"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> POP3 Email"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Database"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Addon Domains"},
+      {"include": "<span style=\"font-weight:bold;\">Instant</span> Backup"},
+      {"include": "<span style=\"font-weight:bold;\">Domain</span> Gratis Selamanya"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> SSL Gratis Selamanya"},
+      {"include": "<span style=\"font-weight:bold;\">Private</span> Name Server"},
+      {"include": "<span style=\"font-weight:bold;\">SpamAssasin</span> Mail Protection"}
+    ],
+    "button": "Pilih Sekarang",
+    "active": "active",
+    "active2": "active2",
+    "borderActive": "border--active",
+    "showImage": true
+  },
+  {
+    "title": "Bisnis",
+    "priceBefore": "109.900",
+    "priceAfter": "<span style=\"font-size:3em;font-weight:900;\">65</span><span style=\"font-weight:bold;\">.900</b>",
+    "regUser": "<span style=\"font-weight:bold;\">3.552</span>",
+    "includes": [
+      {"include": "<span style=\"font-weight:bold;\">3X RESOURCE POWER</span>"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Disk Space"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Bandwidth"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> POP3 Email"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Database"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> Addon Domains"},
+      {"include": "<span style=\"font-weight:bold;\">Magic Auto</span> Backup & Restore"},
+      {"include": "<span style=\"font-weight:bold;\">Domain</span> Gratis Selamanya"},
+      {"include": "<span style=\"font-weight:bold;\">Unlimited</span> SSL Gratis Selamanya"},
+      {"include": "<span style=\"font-weight:bold;\">Private</span> Name Server"},
+      {"include": "<span style=\"font-weight:bold;\">Prioritas</span> Layanan Support"},
+      {"include": "<span style='color:#008FEE;font-size:14px;'>&#9733;</span><span style='color:#008FEE;font-size:14px;'>&#9733;</span><span style='color:#008FEE;font-size:14px;'>&#9733;</span><span style='color:#008FEE;font-size:14px;'>&#9733;</span><span style='color:#008FEE;font-size:14px;'>&#9733;</span>"},
+      {"include": "<span style=\"font-weight:bold;\">SpamExpert</span> Pro Mail Protection"}
+    ],
+    "button": "Diskon 40%",
+    "active": "",
+    "active2": "",
+    "borderActive": "",
+    "showImage": false
+  }
+]
