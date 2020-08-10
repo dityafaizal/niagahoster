@@ -29282,7 +29282,11 @@ var render = function() {
           [
             data.showImage
               ? _c("img", {
-                  attrs: { src: "/images/banner-best-seller.png", alt: "" }
+                  attrs: {
+                    rel: "prefetch",
+                    src: "/images/banner-best-seller.png",
+                    alt: ""
+                  }
                 })
               : _vm._e(),
             _vm._v(" "),

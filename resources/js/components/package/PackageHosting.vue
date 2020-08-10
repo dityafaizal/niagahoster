@@ -6,7 +6,7 @@
     </div>
     <div class="package__hosting--package">
       <div class="package__hosting--package--each" :class="data.borderActive" v-for="(data, i) in listPackages" :key="i">
-        <img src="/images/banner-best-seller.png" v-if="data.showImage" alt="">
+        <img rel="prefetch" src="/images/banner-best-seller.png" v-if="data.showImage" alt="">
         <div class="package__hosting--package--title" :class="data.active2">
           <h3>{{data.title}}</h3>
         </div>
